@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'com.quylua98'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    runtime("mysql:mysql-connector-java:5.1.18")
+    compile 'org.apache.poi:poi:4.1.0'
+    compile 'org.apache.poi:poi-ooxml:4.1.0'
+    compile 'org.apache.poi:poi-scratchpad:4.1.0'
+}
